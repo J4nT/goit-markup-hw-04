@@ -1,0 +1,402 @@
+:root{
+--navy-blue-color:#2e2f42;
+--iris-color: #4d5ae5;
+--ocean-color: #404bbf;
+--green-color:#31D0AA; 
+--slate-color: #434455;
+--white-color: #ffffff;
+--cloud-color: #f4f4fd;
+--second-heading-size:36px;
+--second-heading-weight:700;
+--third-heading-size:20px;
+--third-heading-weight:500;
+/*tu wpisujemy wszystkie kolory na stornie z figmy style guide*/
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{  
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--iris-color);
+    text-decoration: none;
+    margin-right: 76px;     /* <-- dodałem to przed chwilą*/
+}
+
+.link{
+ text-decoration: none; /*dodałem padding tutaj w hw02 tu go nie bylo*/ 
+ padding: 24px 0;
+}
+.logo-studio{
+    color:var(--navy-blue-color);
+/*logo studio nalezy do portfolio*/
+}
+
+.list{ 
+    list-style: none;
+    display: flex; /*<-- dodałem to w hw03*/
+    /*margin: 0;/*<-- dodałem to w hw03 być może trzeba będzie usunąć*/
+    padding-left: 0;/*<-- dodałem to w hw03 być może trzeba będzie usunąć*/
+}
+
+.link-nav{  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-decoration: none;
+}
+
+.link:hover{
+    color:var(--ocean-color);
+} /*Pseudoklasa podświetlająca przy najeździe myszki */
+
+.link:focus{
+color:var(--ocean-color);
+} /*podświetlenie butonna(obszaru w koło napisu) */
+
+.address{
+    font-style: normal;
+    padding-left: 332px;
+}
+.address-top-index{
+    padding-top: 8px;
+        /* bo margin jest 16 w linkach a ja nie mam marginu w addresie- reguluje to paddingiem*/
+}
+.address-top-portfolio{
+    padding-top: 24px;
+    /*tylko portfolio*/
+}
+.address-link{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate-color);
+list-style: none;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.address-link:hover{
+    color: var(--ocean-color);
+}
+.address-link:focus{
+    color: var(--ocean-color);
+}
+
+.filters-list{
+color: #4D5AE5;
+}
+
+.filter-button:hover{
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+    border: 1px solid transparent;
+}
+.filter-button:focus{
+    color: var(--white-color);
+    background-color:var(--ocean-color);
+    border: 1px solid transparent;
+} 
+
+.filter-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;   
+    color:var(--iris-color);
+    background-color: var(--cloud-color);
+/*filter-button należy do Portfolio*/
+}
+
+.main-h-two{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+/*main-h-two nalezy do portfolio*/
+}
+.description{
+line-height: 1.5;
+letter-spacing: 0.02em;
+/*nalezy do portfolio*/
+}
+.footer{
+    background-color: var(--navy-blue-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 100px 0;
+    /*nalezy do portfolio*/
+}
+.footer-studio{
+    color: var(--cloud-color);
+/*nalezy do portfolio*/
+}
+.footer-studio-index{
+    color: var(--cloud-color);
+    background-color: var(--navy-blue-color);
+}
+.footer-index{
+    line-height: 1.5;
+    background-color: var(--navy-blue-color);
+    letter-spacing: 0.02em;
+    padding: 100px 0;
+}
+
+.section-four{
+    background-color: var(--cloud-color);
+/*nalezy do index*/
+padding: 120px 0;
+}
+.header-four{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+    margin-bottom: 72px;
+/*nalezy do index*/
+}
+.markguerrero{
+    background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
+/*nalezy do index*/
+}
+.generalheader{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue-color);
+text-align: center;
+margin-bottom: 8px;
+/*nalezy do index w sekcji 4*/
+}
+.akapit{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+/*nalezy do index tylko w sekcji 4*/
+}
+.header-three{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+/*nalezy do index*/
+    margin-bottom: 72px;
+}
+.header-two{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+
+/*nalezy do index*/
+}
+.akapit-two{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+/*nalezy do index*/
+}
+.section-one{
+    background-color: var(--navy-blue-color);
+    padding: 188px 0;
+
+/*nalezy do index*/
+}
+.header-one{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    /*nalezy do index*/
+    max-width: 496px;
+}
+.padding-index{
+margin-left: 331px;
+}
+.button-one{
+    background-color: var(--iris-color);
+    color: var(--white-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    /*nalezy do index*/
+    display: block; /*nowe!*/
+    min-width: 169px; /*nowe!*/
+    height: 56px; /*nowe!*/
+    border: none; /*nowe!*/
+    border-radius: 4px; /*nowe!*/
+    cursor: pointer; /*nowe!*/
+}
+.button-margin{
+    margin-left: 488.5px;
+}
+.button-one:hover{
+background-color: var(--ocean-color);
+}
+.button-one:focus{
+    background-color: var(--ocean-color);
+}
+.logo-header{
+    color: var(--navy-blue-color);
+    /*nalezy do index*/
+}
+
+.link-index{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate-color);
+    /*nalezy do index*/
+}
+.akapit-footer{
+    color: var(--cloud-color);
+    max-width: 264px;
+    
+}
+.link-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+    /*nalezy do porfolio*/
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px; 
+}
+.section-two{
+    padding: 120px 0;
+}
+.list-section-two{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+/*dodano klasę do hw03*/
+}
+.style-two{
+    width: calc((100%-72px)/4); /*to jest trudne*/
+}
+
+.section-three{
+    padding-bottom: 120px;
+}
+
+.style-three{
+   flex-basis: calc((100%-3*16px)/3);
+}
+.padding-eight{
+    margin-bottom: 8px;
+}
+.gap-forty{
+    gap: 40px;
+}
+.gap-twenty-four{
+    gap: 24px;
+}
+.div-section-four{
+    padding: 32px 0px;
+}
+.footer-link-style{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.header-portfolio{
+    border-bottom: 1px solid #e7e9fc;
+}
+.div-portfolio{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-portfolio{
+    display: flex;
+    align-items: center;
+}
+.style-header-portfolio-index{
+    padding: 24px 0;
+}
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.justyfy{
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.style-button-portfolio{
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+.style-section-list{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    }
+.calc-forty-eight{
+    display: block; 
+    width: calc((100% - 48px)/3);
+    cursor: pointer;
+}
+.section-style-photos{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.margin-bottom-eight{
+    margin-bottom: 6px;
+}
+.text-decoration{
+    text-decoration: none;
+}

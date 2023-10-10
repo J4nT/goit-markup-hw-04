@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate-color);
+    background-color: #FFFFFF;
+    font-weight: 500;
+}
+
+/*tam gdzie nie ma przydzielonego pliku html to znaczy ze jest wspolny*/
+img {
+    display: block;
+}
