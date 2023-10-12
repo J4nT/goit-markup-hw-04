@@ -17,7 +17,17 @@
     padding: 0;
     margin: 0;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate-color);
+    background-color: #FFFFFF;
+    font-weight: 500;
+}
 
+/*tam gdzie nie ma przydzielonego pliku html to znaczy ze jest wspolny*/
+img {
+    display: block;
+}
 .logo{  
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -68,7 +78,8 @@ color:var(--ocean-color);
     padding-left: 332px;
 }
 .address-top-index{
-    padding-top: 8px;
+    margin: auto;
+
         /* bo margin jest 16 w linkach a ja nie mam marginu w addresie- reguluje to paddingiem*/
 }
 .address-top-portfolio{
@@ -222,15 +233,17 @@ text-align: center;
 }
 .header-one{
     font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    /*nalezy do index*/
     max-width: 496px;
+    /*nalezy do index*/
 }
 .padding-index{
-margin-left: 331px;
+    margin: auto; 
 }
 .button-one{
     background-color: var(--iris-color);
@@ -399,4 +412,44 @@ background-color: var(--ocean-color);
 }
 .text-decoration{
     text-decoration: none;
+}
+
+.style-section-index{
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.div-icon-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--cloud-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.socials-index{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+.link-socials{
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-socials:hover{
+        background-color: var(--ocean-color);
+}
+.link-socials:focus{
+    background-color: var(--ocean-color);
 }
