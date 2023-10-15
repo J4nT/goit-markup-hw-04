@@ -278,6 +278,7 @@ text-align: center;
 }
 .button-margin{
     margin-left: 488.5px;
+    margin-top: 48px;
 }
 .button-one:hover{
 background-color: var(--ocean-color);
@@ -368,6 +369,7 @@ background-color: var(--ocean-color);
 .footer-link-style{
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
 }
 .header-portfolio{
     border-bottom: 1px solid #e7e9fc;
