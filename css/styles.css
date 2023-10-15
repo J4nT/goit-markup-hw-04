@@ -31,6 +31,8 @@ body {
 img {
     display: block;
 }
+li{list-style-type:none;}
+
 .logo{  
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -87,7 +89,8 @@ color:var(--ocean-color);
         /* bo margin jest 16 w linkach a ja nie mam marginu w addresie- reguluje to paddingiem*/
 }
 .address-top-portfolio{
-    padding-top: 24px;
+    margin: auto;
+    padding-left: 193px;
     /*tylko portfolio*/
 }
 .address-link{
@@ -433,6 +436,7 @@ background-color: var(--ocean-color);
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_image.jpg);
+    margin: auto;
 }
 .div-icon-index{
     display: flex;
