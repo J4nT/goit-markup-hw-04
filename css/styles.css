@@ -81,6 +81,7 @@ color:var(--ocean-color);
 .address{
     font-style: normal;
     padding-left: 332px;
+    font-weight: 400;
 }
 .address-top-index{
     margin: auto;
@@ -333,6 +334,7 @@ background-color: var(--ocean-color);
 }
 .section-two{
     padding: 120px 0;
+    font-weight: 400;
 }
 .list-section-two{
     list-style: none;
@@ -341,7 +343,7 @@ background-color: var(--ocean-color);
 /*dodano klasę do hw03*/
 }
 .style-two{
-    width: calc((100%-72px)/4); /*to jest trudne*/
+    width: calc((100% - 72px)/4); /*to jest trudne*/
 }
 
 .section-three{
@@ -485,6 +487,7 @@ background-color: var(--ocean-color);
     line-height: 1.11;
     color: var(--navy-blue-color);
     margin-bottom: 72px;
+    padding-left: 472.5px;
 }
 .customers-list{
     display: flex;
