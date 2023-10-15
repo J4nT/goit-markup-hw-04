@@ -82,6 +82,7 @@ color:var(--ocean-color);
 }
 .address-top-index{
     margin: auto;
+    padding-left: 193px;
 
         /* bo margin jest 16 w linkach a ja nie mam marginu w addresie- reguluje to paddingiem*/
 }
